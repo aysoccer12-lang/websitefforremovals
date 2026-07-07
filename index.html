@@ -218,7 +218,8 @@ const observer = new IntersectionObserver((entries)=>{
 });
 
 document.querySelectorAll(
-".hero-card,.promise-card,.feature-card,.impact-card,.faq-accordion details"
+".hero-card,.hero-card-small,.feature,.panel,.faq-accordion details"
+)
 ).forEach(card=>{
     card.classList.add("animate");
     observer.observe(card);
