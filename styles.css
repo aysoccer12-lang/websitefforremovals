@@ -298,3 +298,6 @@ footer {
     font-weight:700;
     font-size:20px;
 }
+.pricing-panel{
+    border-left:6px solid #0b5cad;
+}
