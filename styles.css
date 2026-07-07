@@ -339,3 +339,6 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.btn.primary{
+    margin-bottom:24px;
+}
