@@ -300,3 +300,22 @@ footer {
 .pricing-panel{
     border-left:6px solid #0b5cad;
 }
+.hero-card-small {
+  margin: 22px 0 12px;
+  max-width: 600px;
+  background: #ffffff;
+  border: 1px solid #e5edf6;
+  border-radius: 20px;
+  padding: 20px 22px;
+  box-shadow: 0 18px 45px rgba(11, 92, 173, 0.08);
+}
+
+.hero-card-small p {
+  color: #44566c;
+  font-size: 0.98rem;
+  margin: 0;
+}
+
+.hero-card-small p + p {
+  margin-top: 14px;
+}
