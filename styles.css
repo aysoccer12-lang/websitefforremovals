@@ -1,347 +1,145 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RatingRepair.ca | Google Review Removal Service</title>
+  <meta name="description" content="RatingRepair.ca helps businesses remove fake and policy-violating Google reviews. Free consultation. Pay only if the review is successfully removed." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#">RatingRepair.ca</a>
+      <nav>
+        <a href="#process">Process</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="tel:6137002815" class="nav-cta">613-700-2815</a>
+      </nav>
+    </div>
+  </header>
 
-body {
-  font-family: Inter, Arial, sans-serif;
-  color: #132238;
-  background: #ffffff;
-  line-height: 1.6;
-}
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Google Review Removal Help</p>
+          <h1>Remove unwanted Google reviews and restore your business's reputation.</h1>
 
-.container {
-  width: min(1120px, 92%);
-  margin: 0 auto;
-}
+          <p class="hero-text">
+            Tell me which review(s) you'd like removed, and I'll evaluate the situation at no cost to you.
+          </p>
 
-.site-header {
-  position: sticky;
-  top: 0;
-  background: rgba(255,255,255,0.92);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid #e8eef5;
-  z-index: 10;
-}
+          <a href="tel:6137002815" class="btn primary">
+            Call or Text for a Free Consultation
+          </a>
 
-.nav {
-  height: 72px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+          <div class="hero-card-small">
+            <p><strong>✓ No upfront payment.</strong> You only pay if the review is successfully removed.</p>
+            <p><strong>✓ We help businesses challenge reviews that appear to violate Google's policies, including reviews left by dishonest customers or competitors.</strong></p>
+          </div>
 
-.logo {
-  font-weight: 800;
-  font-size: 1.25rem;
-  color: #0b5cad;
-}
+          <p class="trust-note">
+            Call/text <strong>613-700-2815</strong> and tell me about the review(s) you want to get rid of.
+          </p>
+        </div>
 
-.nav-cta {
-  color: #0b5cad;
-  text-decoration: none;
-  font-weight: 700;
-}
+        <div class="hero-card">
+          <h3>Why It Matters</h3>
+          <ul>
+            <li>Bad reviews can turn away customers</li>
+            <li>Your rating affects trust</li>
+            <li>No upfront payment</li>
+            <li>$150 per removed review</li>
+            <li>No removal, no fee</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-.hero {
-  padding: 86px 0;
-  background: linear-gradient(135deg, #f3f8ff 0%, #ffffff 60%);
-}
+    <section id="process" class="section">
+      <div class="container three-cols">
+        <div class="feature">
+          <span>01</span>
+          <h3>Free Consultation</h3>
+          <p>Tell me which review(s) you'd like removed and I'll evaluate the situation at no cost to you.</p>
+        </div>
 
-.hero-grid,
-.split,
-.contact-card {
-  display: grid;
-.hero-grid{
-    grid-template-columns:1.25fr .75fr;
-}
-  gap: 56px;
-  align-items: center;
-}
+        <div class="feature">
+          <span>02</span>
+          <h3>I Handle the Process from A to Z</h3>
+          <p>Depending on the case, I'll prepare and submit removal requests until a final decision is reached.</p>
+        </div>
 
-.eyebrow {
-  color: #0b5cad;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.82rem;
-  margin-bottom: 14px;
-}
+        <div class="feature">
+          <span>03</span>
+          <h3>Pay on Success</h3>
+          <p>You only pay if the review is successfully removed.</p>
+        </div>
+      </div>
+    </section>
 
-h1 {
-  font-size: clamp(2.35rem, 5vw, 4.6rem);
-  line-height: 1.04;
-  letter-spacing: -0.05em;
-  margin-bottom: 24px;
-}
+    <section id="pricing" class="section muted">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Pricing</p>
+          <h2>$150</h2>
+          <p><strong>Per successfully removed review.</strong></p>
+          <p>No upfront payment. No removal, no fee.</p>
+        </div>
 
-h2 {
-  font-size: clamp(2rem, 4vw, 3.2rem);
-  line-height: 1.1;
-  letter-spacing: -0.04em;
-  margin-bottom: 18px;
-}
+        <div class="panel pricing-panel">
+          <h3>Bad Reviews Impact Your Business!</h3>
 
-h3 {
-  font-size: 1.25rem;
-  margin-bottom: 12px;
-}
+          <ul class="pricing-benefits">
+            <li><strong>Your reputation is worth more than $150.</strong></li>
+            <li>One lost customer can cost far more than removing a damaging review.</li>
+            <li>A single negative review can turn away future customers before they ever contact you.</li>
+            <li>Removing unfair reviews can improve your rating and help restore trust.</li>
+            <li><strong>Fix it once and benefit from a stronger Google rating every day after.</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-.hero-text {
-  font-size: 1.18rem;
-  color: #44566c;
-  max-width: 680px;
-  margin-bottom: 28px;
-}
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="center">
+          <p class="eyebrow">FAQ</p>
+          <h2>Common Questions</h2>
+        </div>
 
-.hero-actions {
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
-  margin-bottom: 18px;
-}
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>Can you remove any bad review?</h3>
+            <p>No. Only reviews that may violate Google's policies.</p>
+          </div>
 
-.btn,
-button {
-  display: inline-block;
-  border: none;
-  border-radius: 999px;
- padding:18px 34px;
-font-size:1.05rem;
-  font-weight: 800;
-  text-decoration: none;
-  cursor: pointer;
-}
+          <div class="faq-item">
+            <h3>Do you guarantee removal?</h3>
+            <p>No. Google makes the final decision. You only pay if the review is successfully removed.</p>
+          </div>
 
-.primary,
-button {
-  background: #0b5cad;
-  color: white;
-}
+          <div class="faq-item">
+            <h3>Can I do this myself?</h3>
+            <p>Yes. I save you time and prepare a stronger policy-based case.</p>
+          </div>
 
-.secondary {
-  background: #eaf3ff;
-  color: #0b5cad;
-}
+          <div class="faq-item">
+            <h3>How do I start?</h3>
+            <p>Call or text 613-700-2815 and tell me which review you want removed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-.trust-note,
-.form-note {
-  color: #64748b;
-  font-size: 0.95rem;
-}
-.hero-card,
-.panel,
-.contact-card {
-  background: #ffffff;
-  border: 1px solid #e5edf6;
-  border-radius: 28px;
-  padding: 32px;
-  box-shadow: 0 24px 60px rgba(11, 92, 173, 0.09);
-}
-
-.hero-card ul {
-  list-style: none;
-}
-
-.hero-card li {
-  padding: 12px 0;
-  border-bottom: 1px solid #edf2f7;
-}
-
-.hero-card li:before {
-  content: "✓";
-  color: #0b5cad;
-  font-weight: 900;
-  margin-right: 10px;
-}
-
-.section {
-  padding: 76px 0;
-}
-
-.muted {
-  background: #f7fbff;
-}
-
-.three-cols {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 26px;
-}
-
-.feature {
-  border: 1px solid #e5edf6;
-  border-radius: 24px;
-  padding: 28px;
-  background: #fff;
-}
-
-.feature span {
-  color: #0b5cad;
-  font-weight: 900;
-  display: block;
-  margin-bottom: 18px;
-}
-
-.feature p,
-.split p,
-.center p,
-.panel p {
-  color: #4b5f76;
-}
-
-.steps {
-  display: grid;
-  gap: 16px;
-}
-
-.steps div {
-  background: white;
-  border: 1px solid #e5edf6;
-  padding: 22px;
-  border-radius: 20px;
-}
-
-.reverse {
-  grid-template-columns: 0.9fr 1.1fr;
-}
-
-.center {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.contact {
-  background: #0b2340;
-}
-
-.contact-card {
-  background: white;
-}
-
-form {
-  display: grid;
-  gap: 14px;
-}
-
-input,
-textarea {
-  width: 100%;
-  border: 1px solid #d8e2ee;
-  border-radius: 16px;
-  padding: 14px 16px;
-  font: inherit;
-}
-
-textarea {
-  min-height: 120px;
-  resize: vertical;
-}
-
-footer {
-  background: #07192d;
-  color: #b8c7d8;
-  padding: 28px 0;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  font-size: 0.9rem;
-}
-
-@media (max-width: 820px) {
-  .hero-grid,
-  .split,
-  .contact-card,
-  .reverse {
-    grid-template-columns: 1fr;
-  }
-
-  .three-cols {
-    grid-template-columns: 1fr;
-  }
-
-  .footer {
-    flex-direction: column;
-  }
-
-  .hero {
-    padding: 56px 0;
-  }
-}
-.pricing-benefits{
-    list-style:none;
-    margin:0;
-    padding:0;
-}
-
-.pricing-benefits li{
-    position:relative;
-    padding-left:32px;
-    margin-bottom:18px;
-    color:#44566c;
-    line-height:1.6;
-}
-
-.pricing-benefits li:last-child{
-    margin-bottom:0;
-}
-
-.pricing-benefits li::before{
-    content:"✓";
-    position:absolute;
-    left:0;
-    top:0;
-    color:#0b5cad;
-    font-weight:700;
-    font-size:20px;
-}
-.pricing-panel{
-    border-left:6px solid #0b5cad;
-}
-.hero-card-small{
-    margin:0 0 18px;
-  max-width: 600px;
-  background: #ffffff;
-  border: 1px solid #e5edf6;
-  border-radius: 20px;
-  padding: 20px 22px;
-  box-shadow: 0 18px 45px rgba(11, 92, 173, 0.08);
-}
-
-.hero-card-small p {
-  color: #44566c;
-  font-size: 0.98rem;
-  margin: 0;
-}
-
-.hero-card-small p + p {
-  margin-top: 14px;
-}
-.faq-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  margin-top: 34px;
-}
-
-.faq-item {
-  background: #ffffff;
-  border: 1px solid #e5edf6;
-  border-radius: 22px;
-  padding: 24px;
-  box-shadow: 0 14px 35px rgba(11, 92, 173, 0.05);
-}
-
-@media (max-width: 820px) {
-  .faq-grid {
-    grid-template-columns: 1fr;
-  }
-}
-.btn.primary{
-    margin-bottom:24px;
-}
+  <footer>
+    <div class="container footer">
+      <p>© 2026 RatingRepair.ca</p>
+      <p><a href="tel:6137002815">613-700-2815</a></p>
+    </div>
+  </footer>
+</body>
+</html>
