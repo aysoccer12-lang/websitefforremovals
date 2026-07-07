@@ -271,3 +271,30 @@ footer {
     padding: 56px 0;
   }
 }
+.pricing-benefits{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.pricing-benefits li{
+    position:relative;
+    padding-left:32px;
+    margin-bottom:18px;
+    color:#44566c;
+    line-height:1.6;
+}
+
+.pricing-benefits li:last-child{
+    margin-bottom:0;
+}
+
+.pricing-benefits li::before{
+    content:"✓";
+    position:absolute;
+    left:0;
+    top:0;
+    color:#0b5cad;
+    font-weight:700;
+    font-size:20px;
+}
