@@ -267,7 +267,10 @@ h3 {
   box-shadow: 0 14px 35px rgba(11, 92, 173, 0.05);
   overflow: hidden;
 }
-
+.faq-accordion details[open]{
+    border-color:#0b5cad;
+    box-shadow:0 18px 45px rgba(11,92,173,.10);
+}
 .faq-accordion summary {
   cursor: pointer;
   font-weight: 850;
