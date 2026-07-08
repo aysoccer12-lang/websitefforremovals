@@ -394,3 +394,13 @@ to{
 h1{
     animation:slideUp .7s ease;
 }
+.animate {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: all 0.7s ease;
+}
+
+.animate.show {
+  opacity: 1;
+  transform: translateY(0);
+}
