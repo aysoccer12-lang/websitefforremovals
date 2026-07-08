@@ -206,21 +206,25 @@
     });
   </script>
   <script>
-const observer = new IntersectionObserver((entries)=>{
-    entries.forEach(entry=>{
-        if(entry.isIntersecting){
-            entry.target.classList.add("show");
-        }
-    });
-},{
-    threshold:.15
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      setTimeout(() => {
+        entry.target.classList.add("show");
+      }, entry.target.dataset.delay || 0);
+
+      observer.unobserve(entry.target);
+    }
+  });
+}, {
+  threshold: 0.15
 });
 
-document.querySelectorAll(
-".hero-card,.hero-card-small,.feature,.panel,.faq-accordion details"
-).forEach(card=>{
-    card.classList.add("animate");
-    observer.observe(card);
+document.querySelectorAll(".hero-card,.hero-card-small,.feature,.panel,.faq-accordion details")
+.forEach((card, index) => {
+  card.classList.add("animate");
+  card.dataset.delay = index * 80;
+  observer.observe(card);
 });
 </script>
 </body>
