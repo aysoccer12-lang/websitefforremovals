@@ -7,7 +7,24 @@
   <meta name="description" content="RatingRepair.ca helps businesses remove fake and policy-violating Google reviews. Free consultation. Pay only if the review is successfully removed." />
   <link rel="stylesheet" href="styles.css" />
 </head>
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+}, {
+  threshold: 0.15
+});
 
+document.querySelectorAll(
+  ".hero-card, .hero-card-small, .feature, .panel, .faq-accordion details"
+).forEach(card => {
+  card.classList.add("animate");
+  observer.observe(card);
+});
+</script>
 <body>
   <header class="site-header">
     <div class="container nav">
